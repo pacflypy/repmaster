@@ -1,5 +1,5 @@
-#ifndef COLORS_H
-#define COLORS_H
+#ifndef COLORS_HPP
+#define COLORS_HPP
 
 #define RESET "\033[0m"
 #define FGRED "\033[31m"
