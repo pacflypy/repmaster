@@ -14,7 +14,7 @@
 
 #include <string>
 
-namespace RepoMaster
+namespace RepoManager
 {
     void sprint(std::string style, std::string text);
 }

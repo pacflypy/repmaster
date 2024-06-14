@@ -5,48 +5,45 @@ namespace RepoManager
 {
     void cprint(std::string color, std::string text, std::string typ)
     {
-        /* Hier muessen wir nun die Farben aus der colors.h verwende und diesen anhand des types sortieren
-        Dabei sind als typ lediglich foreground und background erlaubt
-        Der rest wird dann bezogen und angegeben
-        */
-       if (typ == "foreground") {
-        if (color == "red") {
-            const char* color = FGRED;
-        } else if (color == "green") {
-            const char* color = FGGRN;
-        } else if (color == "yellow") {
-            const char* color = FGYEL;
-        } else if (color == "blue") {
-            const char* color = FGBLU;
-        } else if (color == "magenta") {
-            const char* color = FGMAG;
-        } else if (color == "cyan") {
-            const char* color = FGCYN;
-        } else if (color == "reset" || color == "white") {
-            const char* color = RESET;
-        } else {
-            throw std::invalid_argument("Invalid Color");
-        }
-        std::cout << color << text << RESET << std::endl;
-        } else if (typ == "background") {
+        const char* color_code = nullptr;
+        if (typ == "foreground") {
             if (color == "red") {
-                const char* color = BGRED;
+                color_code = FGRED;
             } else if (color == "green") {
-                const char* color = BGGRN;
+                color_code = FGGRN;
             } else if (color == "yellow") {
-                const char* color = BGYEL;
+                color_code = FGYEL;
             } else if (color == "blue") {
-                const char* color = BGBLU;
+                color_code = FGBLU;
             } else if (color == "magenta") {
-                const char* color = BGMAG;
+                color_code = FGMAG;
             } else if (color == "cyan") {
-                const char* color = BGCYN;
+                color_code = FGCYN;
             } else if (color == "reset" || color == "white") {
-                const char* color = RESET;
+                color_code = RESET;
             } else {
                 throw std::invalid_argument("Invalid Color");
             }
-            std::cout << color << text << RESET << std::endl;
+            std::cout << color_code << text << RESET << std::endl;
+        } else if (typ == "background") {
+            if (color == "red") {
+                color_code = BGRED;
+            } else if (color == "green") {
+                color_code = BGGRN;
+            } else if (color == "yellow") {
+                color_code = BGYEL;
+            } else if (color == "blue") {
+                color_code = BGBLU;
+            } else if (color == "magenta") {
+                color_code = BGMAG;
+            } else if (color == "cyan") {
+                color_code = BGCYN;
+            } else if (color == "reset" || color == "white") {
+                color_code = RESET;
+            } else {
+                throw std::invalid_argument("Invalid Color");
+            }
+            std::cout << color_code << text << RESET << std::endl;
         } else {
             std::cout << text << std::endl;
         }
