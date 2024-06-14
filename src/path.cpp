@@ -14,4 +14,13 @@ namespace RepoManager
             throw std::runtime_error("HOME environment variable is not set");
         }
     }
+    std::string GetPrefix()
+    {
+        const char* prefix_cstr = getenv("PREFIX");
+        if (prefix_cstr) {
+            return std::string(prefix_cstr);
+        } else {
+            return std::string("/usr/local");
+        }
+    }
 }
