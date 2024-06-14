@@ -69,4 +69,16 @@ namespace RepoManager
         std::filesystem::path full_path = project / dist / distribution / component / arch;
         return full_path.string();
     }
+    std::string GetPool(std::string project, std::string component, std::string deb_name)
+    {
+        // Versuche den Ersten Buchstaben aus der .deb Datei zu extrahieren damit wir die struktur richtig finden
+        // Und zwar baut sich ein debian packet so auf {name}_{version}_{arch}.deb
+        // Wir versuchen daher den namen
+        std::string name = deb_name.substr(0, deb_name.find('_'));
+        std::string first_letter = name.substr(0, 1);
+        std::filesystem::path project = GetProject(project);
+        std::filesystem::path pool = std::string("pool");
+        std::filesystem::path full_path = project / pool / component / first_letter / name;
+        return full_path.string();
+    }
 }

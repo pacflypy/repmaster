@@ -13,7 +13,7 @@ namespace RepoManager
     std::string GetProject(std::string repo_name);
     std::string GetSample(std::string prefix);
     std::string GetDist(std::string project, std::string distribution, std::string component, std::string architecture);
-    std::string GetPool(std::string project, std::string deb_name);
+    std::string GetPool(std::string project, std::string component, std::string deb_name);
 }
 
 #endif
