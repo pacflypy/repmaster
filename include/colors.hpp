@@ -16,6 +16,8 @@
 #define BGMAG "\033[45m"
 #define BGCYN "\033[46m"
 
+#include <string>
+
 namespace RepoMaster
 {
     void cprint(const char* color, const char* text, const char* typ);

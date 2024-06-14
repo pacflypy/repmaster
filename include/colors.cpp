@@ -1,4 +1,4 @@
-#include "colors.h"
+#include "colors.hpp"
 #include <iostream>
 
 namespace RepoManager
