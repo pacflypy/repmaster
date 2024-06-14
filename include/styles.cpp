@@ -1,4 +1,4 @@
-#include "styles.h"
+#include "styles.hpp"
 #include <iostream>
 
 namespace RepoManager {

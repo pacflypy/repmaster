@@ -12,4 +12,9 @@
 #define CONCEALED "\033[8m"
 #define CROSSED "\033[9m"
 
+namespace RepoMaster
+{
+    void sprint(const char* style, const char* text);
+}
+
 #endif
