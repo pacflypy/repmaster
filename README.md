@@ -2,19 +2,19 @@
 
 Repo Manager is an Application written in C++ that allows you to Manage many APT Repositories for Debian, Ubuntu, Linux Mint, Kali Linux, Termux and more.
 
-[ ] Create Easy and Fast an APT Repo.
+[1] Create Easy and Fast an APT Repo.
 
-[ ] Add Packages Fast and Easy to your Repository.
+[2] Add Packages Fast and Easy to your Repository.
 
-[ ] Remove Packages from your Repository.
+[3] Remove Packages from your Repository.
 
-[ ] Use git for Hosting your APT Repo easy and Fast.
+[4] Use git for Hosting your APT Repo easy and Fast.
 
-[ ] Create a Snapshot from the Repo and Bind this in a .repsnap file.
+[5] Create a Snapshot from the Repo and Bind this in a .repsnap file.
 
-[ ] Restore Snapshots.
+[6] Restore Snapshots.
 
-[ ] Share Snapshots Online.
+[7] Share Snapshots Online.
 
 
 And Many, Many Features more.
