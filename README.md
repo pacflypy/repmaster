@@ -33,6 +33,11 @@ And Many, Many Features more.
 
 ## License
 
+The Applications stand under 2 Licenses
+
+1. The GPLv3 License
+2. The Apache License 2.0
+
 <details>
     <summary>LICENSE</summary>
     <ol>
