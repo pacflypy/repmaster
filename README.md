@@ -1,6 +1,6 @@
 # Repo Manager
 
-Repo Manager is an Application written in C++ that allows you to Manage many APT Repositories for Debian, Ubuntu, Linux Mint, Kali Linux, Termux and more.
+Repo Manager is an Application written in C++ that allows you to Manage many APT Repositories.
 
 [1] Create Easy and Fast an APT Repo.
 
@@ -18,3 +18,14 @@ Repo Manager is an Application written in C++ that allows you to Manage many APT
 
 
 And Many, Many Features more.
+
+<details>
+    <summary>Allowed Distributions</summary>
+    <ol>
+        <li><a href="https://www.debian.org" style="color: cyan;">Debian</a></li>
+        <li><a href="https://www.ubuntu.com" style="color: cyan;">Ubuntu</a></li>
+        <li><a href="https://www.linuxmint.com" style="color: cyan;">Linux Mint</a></li>
+        <li><a href="https://www.kali.org" style="color: cyan;">Kali Linux</a></li>
+        <li><a href="https://www.termux.org" style="color: cyan;">Termux</a></li>
+    </ol>
+</details>
