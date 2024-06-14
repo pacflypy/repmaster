@@ -18,7 +18,7 @@
 
 #include <string>
 
-namespace RepoMaster
+namespace RepoManager
 {
     void cprint(std::string color, std::string text, std::string typ);
 }
