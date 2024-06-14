@@ -26,6 +26,6 @@ And Many, Many Features more.
         <li><a href="https://www.ubuntu.com" style="color: cyan;">Ubuntu</a></li>
         <li><a href="https://www.linuxmint.com" style="color: cyan;">Linux Mint</a></li>
         <li><a href="https://www.kali.org" style="color: cyan;">Kali Linux</a></li>
-        <li><a href="https://www.termux.org" style="color: cyan;">Termux</a></li>
+        <li><a href="https://www.termux.dev" style="color: cyan;">Termux</a></li>
     </ol>
 </details>
