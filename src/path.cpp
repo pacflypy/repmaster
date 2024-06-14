@@ -54,4 +54,19 @@ namespace RepoManager
         std::filesystem::path project = root / repo;
         return project.string();
     }
+    std::string GetSample(std::string prefix)
+    {
+        std::filesystem::path prefix = prefix;
+        std::filesystem::path path_to = "etc/repo-manager/sample";
+        std::filesystem::path sample = prefix / path_to;
+        return sample.string();
+    }
+    std::string GetDist(std::string project, std::string distribution, std::string component, std::string architecture)
+    {
+        std::filesystem::path project = GetProject(project);
+        std::filesystem::path dist = std::string("dists");
+        std::filesystem::path arch = std::string("binary-") + architecture;
+        std::filesystem::path full_path = project / dist / distribution / component / arch;
+        return full_path.string();
+    }
 }
