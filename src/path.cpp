@@ -47,4 +47,11 @@ namespace RepoManager
             return std::string("root");
         }
     }
+    std::string GetProject(std::string repo_name)
+    {
+        std::filesystem::path root = RepoManagerRoot();
+        std::filesystem::path repo = repo_name;
+        std::filesystem::path project = root / repo;
+        return project.string();
+    }
 }
