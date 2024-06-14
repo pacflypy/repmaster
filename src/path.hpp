@@ -7,6 +7,7 @@ namespace RepoManager
 {
     std::string GetHome();
     std::string GetPrefix();
+    std::string RepoManagerRoot();
     std::string GetConfig(std::string repo_name);
     std::string GetUser();
     std::string GetProject(std::string repo_name);
