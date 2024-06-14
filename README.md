@@ -29,3 +29,14 @@ And Many, Many Features more.
         <li><a href="https://www.termux.dev" style="color: cyan;">Termux</a></li>
     </ol>
 </details>
+
+
+## License
+
+<details>
+    <summary>LICENSE</summary>
+    <ol>
+        <li><a href="LICENSE.txt">Apache License 2.0</a></li>
+        <li><a href="LICENSE.md">Gnu General Public License v3.0</a></li>
+    </ol>
+</details>
