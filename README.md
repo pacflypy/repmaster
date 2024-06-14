@@ -1,4 +1,4 @@
-# Repo Manager
+# repmaster
 
 Repo Manager is an Application written in C++ that allows you to Manage many APT Repositories.
 
@@ -30,6 +30,18 @@ And Many, Many Features more.
     </ol>
 </details>
 
+# Why repmaster and not aptly and reprepro
+
+repmaster is easyer and faster then aptly or reprepro.
+
+How code i repmaster?
+---------------------
+
+Repmaster is code in following Languages
+
+1. C/C++ (The Main Language and The Main Functionality)
+2. Go (In Go i create few shared librarys for better Interaction)
+3. Rust (The Same how Go, i create c shared librarys for better system near Interaction)
 
 ## License
 
