@@ -2,7 +2,7 @@
 #include <iostream>
 
 namespace RepoManager {
-    void sprint(const char* style, const char* text) {
+    void sprint(std::string style, std::string text) {
         if (style == "bold") {
             std::cout << BOLD << text << RESET << std::endl;
         } else if (style == "italic") {

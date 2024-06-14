@@ -20,7 +20,7 @@
 
 namespace RepoMaster
 {
-    void cprint(const char* color, const char* text, const char* typ);
+    void cprint(std::string color, std::string text, std::string typ);
 }
 
 #endif

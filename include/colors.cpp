@@ -3,7 +3,7 @@
 
 namespace RepoManager
 {
-    void cprint(const char* color, const char* text, const char* typ)
+    void cprint(std::string color, std::string text, std::string typ)
     {
         /* Hier muessen wir nun die Farben aus der colors.h verwende und diesen anhand des types sortieren
         Dabei sind als typ lediglich foreground und background erlaubt
