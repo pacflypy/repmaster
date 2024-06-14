@@ -48,4 +48,8 @@ namespace RepoManager
             std::cout << text << std::endl;
         }
     }
+    void println(char* text, char* color, char* style)
+    {
+        Print(text, color, style);
+    }
 }
