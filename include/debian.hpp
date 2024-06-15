@@ -16,6 +16,21 @@ namespace RepoManager
             bool validate() const; /* For Validate the Control Fiel content */
             std::string get(const std::string& key) const; /* For get the Value from a Key*/
     };
+    class Release
+    {
+        private:
+            std::map<std::string, std::string> data;
+            std::string filepath;
+        public:
+            Release(const std::string& path);
+
+            void NewRelease();
+            void append(const std::string& key, const std::string& value);
+            void remove(const std::string& key);
+            void sign(const std::string& PrivateKeyPath);
+            std::string get(const std::string& key) const;
+            void save();
+    };
 }
 
 #endif
