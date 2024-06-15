@@ -43,6 +43,12 @@ Repmaster is code in following Languages
 2. Go (In Go i create few shared librarys for better Interaction)
 3. Rust (The Same how Go, i create c shared librarys for better system near Interaction)
 
+# Usage
+
+```bash
+repmaster [option] {distribution} {component} {architecture}
+```
+
 ## License
 
 The Applications stand under 2 Licenses
