@@ -17,12 +17,10 @@
 #define BGCYN "\033[46m"
 
 #include <string>
-#include "libprint.h"
 
 namespace RepoManager
 {
     void cprint(std::string color, std::string text, std::string typ);
-    void println(char* text, char* color, char* style);
 }
 
 #endif
